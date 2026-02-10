@@ -1,0 +1,14 @@
+name: CustomBlockSelector
+version: '1.0-SNAPSHOT'
+main: org.lurix.customBlockSelector.CustomBlockSelector
+api-version: '1.21'
+author: lurix
+commands:
+  customblocks:
+    description: Opens the custom block selector GUI.
+    usage: /customblocks
+    permission: customblockselector.use
+permissions:
+  customblockselector.use:
+    description: Allows using /customblocks.
+    default: true
